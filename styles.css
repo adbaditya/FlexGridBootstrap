@@ -1,0 +1,110 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.one {
+  flex: 2;
+  padding-bottom: 20px;
+  margin-right: 40px;
+}
+.two {
+  flex: 1;
+  text-align: center;
+}
+h1,
+h4,
+h2 {
+  padding-bottom: 30px;
+}
+.btn {
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  h1,
+  h4 {
+    text-align: center;
+  }
+  .container {
+    text-align: center;
+  }
+}
+h2 {
+  text-align: center;
+}
+.features, .feature {
+  display: flex;
+}
+.sub-feature1 {
+  padding-right: 15px;
+}
+.features {
+  padding: 50px 30px;
+}
+h5 {
+  padding-bottom: 10px;
+}
+.feature p {
+  padding-bottom: 10px;
+}
+.feature-img {
+  max-width: 90%;
+  height: auto;
+}
+
+@media (max-width: 780px) {
+  .features {
+    display: flex;
+    flex-directon: column;
+  }
+  .feature {
+    padding-bottom: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+  .feature-img {
+    padding-bottom: 60px;
+  }
+  .sub-feature1 {
+    padding-bottom: 15px;
+  }
+}
+
+.container-fluid {
+  text-align: center;
+  background: yellow;
+  padding: 30px 0;
+}
+
+.container-fluid-can {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.contianer-fluid a {
+  text-style: none;
+}
+.download-btn {
+  padding: 10px 0;
+}
+
+.container4 {
+  background: lightgrey;
+  display: grid;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer1, .footer2 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+@media (max-width: 720px) {
+  .container3 h4 {
+    font-size: 10px;
+  }
+}
