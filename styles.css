@@ -1,4 +1,9 @@
-.container {
+.one {
+  padding-bottom: 30px;
+}
+
+@media (min-width: 767px) {
+  .container {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -8,10 +13,12 @@
   padding-bottom: 20px;
   margin-right: 40px;
 }
-.two {
+  .two {
   flex: 1;
   text-align: center;
 }
+}
+
 h1,
 h4,
 h2 {
